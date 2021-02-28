@@ -1,0 +1,612 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+    background-image: url(/assets/Image\ 3.png);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+nav {
+    background-color: white;
+    height: 74px;
+    border-radius: 8px;
+
+}
+
+.nav-item {
+    list-style: none;
+    padding: 1rem;
+    color: #9A9A9A;
+    font-family: 16px;
+    font-weight: bold;
+}
+
+.navbutton {
+    background-color: #F16136;
+    color: #FFFFFF;
+    border: none;
+    width: 114px;
+    height: 31px;
+    border-radius: 19px;
+}
+
+.card {
+    height: 32rem;
+    margin-top: 4rem;
+    margin-left: 20rem;
+}
+
+.card-logo {
+    height: 6rem;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.cardbutton1 {
+    background-color: #F16136;
+    color: white;
+    width: 242px;
+    height: 37px;
+    border: none;
+    border-radius: 19px;
+}
+
+.cardbutton2 {
+    color: #9A9A9A;
+    width: 242px;
+    height: 37px;
+    border: none;
+    border-radius: 19px;
+    margin-top: 1rem;
+}
+
+.ratesdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.rate {
+    color: #00a8ff;
+    width: 117px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+}
+
+.rate h4 {
+    font-size: 1.2rem;
+}
+
+.rate-radio {
+    width: 117px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+}
+
+.rate-radio h4 {
+    font-size: 1.2rem;
+    color: #00A680;
+}
+
+.rate-radio input {
+    background-color: #00A680;;
+}
+
+
+.carousel-inner {
+    height: 500px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+}
+
+.show h1 {
+    color: #9A9A9A;
+    width: 40rem;
+    margin-left: 40rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.show h2 {
+    color: #F16136;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.show p {
+    color: #9A9A9A;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+}
+
+.image1 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/duplo.png);
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20rem;
+}
+
+.image2 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/triplo.png);
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20rem;
+    
+}
+
+
+
+.image1 h2, .image2 h2 {
+    color: white;
+}
+
+.image1 p, .image2 p {
+    color: white;
+}
+
+.buttoncontent {
+    border: 1px solid white;
+    width: 165px;
+    height: 37px;
+    border-radius: 19px;
+    color: white;
+    background-color: transparent;
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.container-promotion {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+
+.promotions {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.morebtn {
+    color: #9A9A9A;
+    width: 242px;
+    height: 37px;
+    border-radius: 19px;
+    border: 1px solid #9A9A9A ;
+    background-color: transparent;
+    margin-left: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.promotions {
+    display: flex;
+}
+
+
+.leftsidepromotions {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+.rightsidepromotions {
+    width: 60%;
+}
+
+.hotelcard {
+    width: 23.4rem;
+    height: 38rem;
+    background-color:#272729;
+    color: white;
+    border-radius: 0 0 6px 6px;
+    text-align: center;
+}
+
+.hotelcard p {
+    margin-top: 2rem;
+    color: #EFEFEF;
+    font-weight: bold;
+    width: 22rem;
+    padding-left: 1rem;
+}
+
+.right-side-images {
+    display: flex;
+}
+
+.right-side-image1 {
+    margin-right: 1rem;
+
+}
+
+.right-side-image1 img {
+    height: 28rem;
+}
+
+.right-side-image2 img {
+    height: 28rem;
+    width: 22rem;
+}
+
+.rightsidepromotions h1 {
+    color: #F16136;
+    font-weight: bold;
+}
+
+.rightsidepromotions p {
+    color: #BABABA;
+}
+
+.footer {
+    background-color: #373738;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    align-items: center;
+}
+
+.footer-map {
+    background-color: white;
+    height: 17rem;
+}
+
+.footer-map img {
+    border-radius: 10px;
+    position: absolute;
+    left: 300px;
+    top: 3220px;
+
+}
+
+.footer-image {
+    background-color: white;
+    height: 6rem;
+    border-radius: 11px;
+}
+
+.mid-footer {
+    background-color: #272729;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+.mid-footer p {
+    color: white;
+    margin-right: 4rem;
+}
+
+.mid-footer button {
+    background-color: #F16136;
+    width: 242px;
+    height: 37px;
+    color: white;
+    border: none;
+    border-radius: 19px;
+    margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 1680px) {
+    .show h1 {
+        margin-left: 33rem;
+    }
+
+    .carousel-inner img {
+        height: 23rem;
+    }
+
+    .buttoncontent {
+        margin-left: 20rem;
+    }
+
+    .morebtn {
+        margin-left: 45rem;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    .card {
+        margin-left: 12rem;
+    }
+
+    .show h1 {
+        font-size: 2rem;
+        margin-left: 25rem;
+    }
+
+    .carousel-inner {
+        height: 50vh;
+    }
+
+    .carousel-inner img {
+        height: 20rem;
+    }
+
+    .buttoncontent {
+        margin-left: 17rem;
+    }
+
+    .morebtn {
+        margin-left: 38rem;
+    }
+
+    .footer-map img {
+        top: 2750px;
+        left: 150px;
+        width: 70rem;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .card {
+        margin-left: 8rem;
+        height: 25rem;
+    }
+
+    .card-top {
+        height: 6rem;
+    }
+
+    .card-logo {
+        height: 4rem;
+    }
+
+    .cardbutton1, .cardbutton2 {
+        width: 12rem;
+        height: 2rem;
+    }
+
+    .rate {
+        height: 3rem;
+        width: 6rem;
+    }
+
+    .rate h4 {
+        font-size: 1rem;
+    }
+
+    .rate-radio {
+        height: 3rem;
+        width: 6rem;
+    }
+
+    .rate-radio h4 {
+        font-size: 1rem;
+    }
+
+    .show h1 {
+        font-size: 1.5rem;
+        margin-left: 14rem;
+    }
+
+    .carousel-inner img {
+        height: 14rem;
+    }
+
+    .carousel-inner {
+        height: 40vh;
+    }
+
+    .buttoncontent {
+        margin-left: 10rem;
+    }
+
+    .morebtn {
+        margin-left: 25rem;
+    }
+
+    .right-side-image1 img {
+        width: 14rem;
+        height: 20rem;
+    }
+
+    .right-side-image2 img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .hotelcard {
+        width: 19.8rem;
+        height: 32rem;
+    }
+
+    .cardtop img {
+        height: 20rem;
+    }
+
+    .cardbottom p {
+        font-size: 0.9rem;
+        width: 18rem;
+        text-align: center;
+    }
+
+    .footer-map {
+        height: 10rem;
+    }
+
+    .footer-map img {
+        width: 50rem;
+        height: 15rem;
+        top: 2470px;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+
+    .jumbotron {
+        height: 100vh;
+    }
+
+    .show h1 {
+       text-align: left;
+       margin-left: 1rem;
+       font-size: 1rem;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 500px;
+    }
+
+    .card {
+        margin-left: 2rem;
+        height: 25rem;
+        position: absolute;
+        bottom: 130px;
+    }
+
+    .carousel-inner  {
+        height: 20rem;
+    }
+
+    .carousel-inner img {
+        height: 20rem;
+        position: absolute;
+        right: 20px;
+    }
+
+    .image1 {
+        width: 400%;
+    }
+
+    .image2 {
+        width: 0%;
+    }
+    
+
+    .dorms-div h2{
+        font-size: 2rem;
+    }
+
+    .content h2{
+        font-size: 2rem;
+    }
+
+    .morebtn {
+        margin-left: 4rem;
+    }
+
+    .buttoncontent {
+        margin-left: 7rem;
+        margin-bottom: 8rem;
+    }
+
+    .promotions {
+        display: flex;
+        flex-direction: column;
+        height: 80rem;
+        width: 100%;
+    }
+
+    .leftsidepromotions {
+        margin-left: 15rem;
+    }
+
+    .cardbottom p {
+        align-items: center;
+        font-size: 0.8rem;
+        padding-right: 3rem;
+    }
+
+    .right-side-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightsidepromotions h1, p {
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+
+    .right-side-image1 img {
+        width: 20rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .right-side-image2 img {
+        display: none;
+    }
+
+    .footer-map img {
+        width: 20rem;
+        top: 2960px;
+        left: 35px;
+    }
+
+    .mid-footer {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+    }
+
+    .mid-footer button {
+        margin-right: 4rem;
+        margin-top: 2rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+
+    .footer-image img {
+        display: none;
+    }
+
+    .first {
+        display: none;
+    }
+}
